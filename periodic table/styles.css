@@ -42,19 +42,33 @@ header {
     border-radius: 20px;
     padding: 20px;
     position: absolute; 
-    top: 35%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%); 
     background-color: rgba(255, 255, 255, 0.9);
     z-index: 1;
     width: 50%;
-    height: 40%;
+    height: 10%;
 }
-i#x{
+
+i#x {
     position: absolute;
     margin-top: -5px;
     top: 15%;
     right: 24.5%;
     cursor: pointer;
     z-index: 2;
+}
+
+/* Media Query para telas maiores */
+@media screen and (min-width: 768px) {
+    #elementDetails {
+        top: 35%;
+        width: 40%; /* Ajuste conforme necessário para telas maiores */
+        height: 30%; /* Ajuste conforme necessário para telas maiores */
+    }
+    i#x{
+        top: 20%;
+        right: 30%;
+    }
 }
