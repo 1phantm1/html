@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Garante que o posicionamento absoluto seja relativo ao corpo */
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#searchInput {
+    padding: 8px;
+    margin: 10px;
+}
+
+#elementGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 5px;
+    padding: 10px;
+}
+
+.element {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.element:hover {
+    background-color: #ddd;
+}
+
+#elementDetails {
+    display: none;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    position: absolute; 
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    width: 50%;
+    height: 40%;
+}
+i#x{
+    position: absolute;
+    margin-top: -5px;
+    top: 15%;
+    right: 24.5%;
+    cursor: pointer;
+    z-index: 2;
+}
