@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(Roboto/Roboto-Black.ttf);
+    /*Depois tu aprende a fazer isso*/
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    /*isso tbm*/
+}
+h1{ margin: 15px; }
+
+p{
+    margin-bottom: 20px;
+}
+li{
+    margin: 20px;
+}
+
+.tags{
+    margin: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+
